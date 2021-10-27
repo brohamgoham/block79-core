@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 
 async function main() {
   const GBDC = await ethers.getContractFactory("GBDC");
-  const gbdc = await GBDC.deploy(10000000000000000000000000000);
+  const gbdc = await GBDC.deploy();
 
   await gbdc.deployed();
 
