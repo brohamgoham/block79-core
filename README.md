@@ -1,3 +1,4 @@
 # block79-core
- core functionality of block79
 Hyperledger Besu 
+Block 79 core functionality
+Work In progress
